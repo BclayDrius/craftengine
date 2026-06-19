@@ -35,11 +35,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
-            src="/logo.jpg"
+            src="/favicon.png"
             alt="CRAFTENGINE"
             width={34}
             height={34}
-            className="rounded-md object-cover"
+            className="rounded-md object-contain"
             priority
           />
           <span className="font-display font-semibold tracking-tight text-foreground">

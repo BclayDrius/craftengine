@@ -37,17 +37,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-10 sm:grid-cols-4 lg:grid-cols-5">
           {/* Brand */}
           <div className="col-span-2 sm:col-span-4 lg:col-span-2 flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-3 w-fit">
+            <Link href="/" className="w-fit">
               <Image
                 src="/logo.jpg"
                 alt="CRAFTENGINE"
-                width={32}
-                height={32}
-                className="rounded-md object-cover"
+                width={160}
+                height={48}
+                className="object-contain"
               />
-              <span className="font-display font-semibold text-foreground">
-                CRAFT<span className="text-gold">ENGINE</span>
-              </span>
             </Link>
             <p className="text-sm text-muted leading-relaxed max-w-xs">
               Convertimos la señal cruda de tus máquinas en decisiones de mantenimiento antes de que ocurra el fallo.

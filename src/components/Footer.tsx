@@ -79,7 +79,16 @@ export default function Footer() {
         <div className="mt-14 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex flex-col items-center sm:items-start gap-1">
             <p className="font-mono text-xs text-muted">
-              © {new Date().getFullYear()} CRAFTENGINE. Todos los derechos reservados.
+              © {new Date().getFullYear()} CRAFTENGINE.{" "}
+              <Link
+                href="https://cernextec.com/es"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors duration-150"
+              >
+                Cernext
+              </Link>{" "}
+              - Todos los derechos reservados.
             </p>
             <p className="font-mono text-xs text-muted">
               Hecho por{" "}

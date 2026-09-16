@@ -82,7 +82,7 @@ export default function Footer() {
               © {new Date().getFullYear()} CRAFTENGINE. Todos los derechos reservados.
             </p>
             <p className="font-mono text-xs text-muted">
-              Creado por{" "}
+              Hecho por{" "}
               <Link
                 href="https://barclayleach.com/es/"
                 target="_blank"

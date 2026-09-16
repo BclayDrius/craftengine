@@ -77,9 +77,31 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-14 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-mono text-xs text-muted">
-            © {new Date().getFullYear()} CRAFTENGINE. Todos los derechos reservados.
-          </p>
+          <div className="flex flex-col items-center sm:items-start gap-1">
+            <p className="font-mono text-xs text-muted">
+              © {new Date().getFullYear()} CRAFTENGINE. Todos los derechos reservados.
+            </p>
+            <p className="font-mono text-xs text-muted">
+              Creado por{" "}
+              <Link
+                href="https://barclayleach.com/es/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors duration-150"
+              >
+                Barclay Leach
+              </Link>{" "}
+              impulsando{" "}
+              <Link
+                href="https://www.zentpiper.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors duration-150"
+              >
+                Zentpiper
+              </Link>
+            </p>
+          </div>
           {/* LinkedIn icon */}
           <Link
             href="https://www.linkedin.com/company/craftengine"

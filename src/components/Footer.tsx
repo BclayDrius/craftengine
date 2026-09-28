@@ -99,15 +99,15 @@ export default function Footer() {
                 className="hover:text-foreground transition-colors duration-150"
               >
                 Barclay Leach
-              </Link>{" "}
-              impulsando{" "}
+              </Link>
+              , impulsando{" "}
               <Link
-                href="https://www.zentpiper.com/"
+                href="https://cernextec.com/es"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors duration-150"
               >
-                Zentpiper
+                Cernext
               </Link>
             </p>
           </div>
